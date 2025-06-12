@@ -38,3 +38,5 @@ jobs:
           action: 'upload'
           app_location: './ContosoTraders.Ui.Website.V2.Raw/ContosoTraders.Ui.Website.V2' # App source code path
           output_location: 'build' # Built app content directory
+        env:
+          skip_deploy_on_missing_secrets: true
