@@ -1,5 +1,6 @@
 import "./App.css";
 import WelcomePopup from "./components/WelcomePopup";
+import AboutUs from "./AboutUs";
 
 function App() {
   return (
@@ -219,6 +220,7 @@ function App() {
           <p>Happy hacking!</p>
         </div>
       </header>
+      <AboutUs />
     </>
   );
 }
